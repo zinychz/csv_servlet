@@ -6,6 +6,14 @@ import java.util.List;
 
 public class CSVReader {
 
+    /**
+     * Some comment
+     *
+     * @param csv
+     * @param delim
+     * @return
+     * @throws IOException
+     */
     public static CSVTable getTable(File csv, String delim) throws IOException {
         BufferedReader br = null;
         String line = "";
